@@ -1,0 +1,28 @@
+# CoE-distributed reference files — MUST NOT be committed (criterion #14 / gate-scaffold-integrity)
+CLAUDE.md
+security_rules/
+STG_RUNBOOK.md
+DEV_CREDENTIAL_PROVISIONING.md
+MANIFEST.md
+ci_stubs/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# venv
+.venv/
+venv/
+env/
+
+# OS / editor
+.DS_Store
+*.swp
+# CI 生成の advisory 成果物（reuse-telemetry ジョブの artifact）
+reuse_telemetry/
